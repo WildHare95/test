@@ -1,0 +1,6 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 7.5vh 10vw 0 10vw;
+}
