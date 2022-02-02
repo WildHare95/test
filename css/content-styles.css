@@ -1,6 +1,11 @@
-.content{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin: 7.5vh 10vw 0 10vw;
+.intro{
+    min-height: 100vh;
+    padding-top: 258px;
+}
+.intro__title{
+    max-width: 552px;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 85px;
+    color: #00194A
 }
