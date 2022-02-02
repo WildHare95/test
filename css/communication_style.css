@@ -1,0 +1,78 @@
+.communication_wrapper{
+    display: flex;
+    margin: 0 0 100px 0;
+}
+
+.communication_title{
+    width: 466px;
+    height: 100px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    margin: 115px 0 0 0;
+
+    color: #00194A;
+}
+
+.communication_subtitle{
+    width: 466px;
+    height: 168px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 30px 0 0 0;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.communication_card{
+    width: 260px;
+    height: 249px;
+}
+
+.communication_card:nth-child(2n){
+padding-top: 140px;
+}
+
+.communication_cards{
+    display: grid;
+    grid-template-columns: 260px 260px;
+    grid-gap: 30px;
+    margin: 0 0 0 111px;
+}
+
+.communication_card_title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 23px;
+    margin: 26px 0 0 20px;
+
+    color: #00194A;
+}
+
+.communication_card_subtitle{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 23px;
+    margin: 15px 0 0 20px;
+
+    color: #00194A;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.communication_card_icon{
+    margin: 36px 0 0 20px;
+}

@@ -1,0 +1,38 @@
+.group_chats_wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 1058px;
+    margin: 0 0 100px 0;
+
+}
+
+.group_chats_title{
+    width: 466px;
+    height: 100px;
+
+    margin: 204px 0 0 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+
+    color: #00194A;
+}
+
+.group_chats_subtitle{
+    width: 466px;
+    height: 112px;
+
+    margin: 30px 0 0 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+
+    color: #00194A;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}

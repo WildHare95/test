@@ -5,16 +5,14 @@
 }
 
 .nav_btn{
-    padding: 0;
-    border: none;
     border-radius: 23px;
     box-shadow: 0 5px 50px rgba(255, 0, 67, 0.1);
-    background: #FF0043;
+
     cursor: pointer;
     width: 100px;
     height: 50px;
 
-    font-family: Roboto, monospace;
+    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;

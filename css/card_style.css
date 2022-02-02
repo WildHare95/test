@@ -1,0 +1,56 @@
+.dummy__card_wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.dummy__card{
+    width: 360px;
+    height: 272px;
+}
+
+.card__title{
+    margin: 0 30px 0 30px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #00194A;
+}
+
+.icon_dummy_card{
+    margin: 36px 0 26px 30px;
+}
+
+.card__subtitle{
+    width: 300px;
+    margin: 15px 30px 20px 30px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.download__refs{
+    width: 300px;
+    height: 20px;
+    margin: 0 30px 20px 30px;
+    opacity: 0.5;
+    display: flex;
+    justify-content: space-between;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    text-decoration-line: underline;
+
+    color: #00194A;
+}

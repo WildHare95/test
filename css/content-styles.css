@@ -1,11 +1,129 @@
 .intro{
-    min-height: 100vh;
-    padding-top: 258px;
+    display: flex;
+    margin: 0 0 238px 0;
 }
 .intro__title{
     max-width: 552px;
     font-weight: 500;
     font-size: 60px;
     line-height: 85px;
-    color: #00194A
+    color: #00194A;
+    margin-bottom: 20px;
 }
+
+.intro_container{
+    padding-top: 158px;
+}
+
+.intro__subtitle{
+    max-width: 537px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #00194A;
+    margin-bottom: 50px;
+}
+
+.intro__btn{
+    box-shadow: 0 5px 50px rgba(255, 0, 67, 0.1);
+    border-radius: 30px;
+
+    width: 275px;
+    height: 60px;
+}
+
+.info__block{
+    padding-top: 50px;
+}
+
+.circle{
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle_1{
+    width: 594px;
+    height: 594px;
+    border: 1px solid rgba(255, 0, 67, 0.1);
+    margin: 0 0 0 60px;
+}
+
+.circle_2{
+    top: 50%;
+    left: 50%;
+    width: 454px;
+    height: 454px;
+    border: 1px solid rgba(255, 0, 67, 0.1);
+    transform: translate(-50%, -50%);
+}
+
+.circle_3{
+    top: 50%;
+    left: 50%;
+    width: 312px;
+    height: 312px;
+    border: 1px solid rgba(255, 0, 67, 0.1);
+    transform: translate(-50%, -50%);
+}
+
+.icon1{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon2{
+    position: absolute;
+    top: 3%;
+    left: 33.83%;
+    transform: translate(-50%, -50%);
+}
+
+.icon3{
+    position: absolute;
+    top: 84.53%;
+    left: 14.16%;
+    transform: translate(-50%, -50%);
+}
+
+.icon4{
+    position: absolute;
+    top: 15.79%;
+    left: 78.58%;
+    transform: translate(-50%, -50%);
+}
+
+
+.icon5{
+    position: absolute;
+    top: 24%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+}
+
+.icon6{
+    position: absolute;
+    top: 98%;
+    left: 64%;
+    transform: translate(-50%, -50%);
+}
+
+.phone1{
+    position: relative;
+    z-index: 1;
+    top: 43%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+}
+
+
+.phone2{
+    position: relative;
+    z-index: 1;
+    top: -5%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
