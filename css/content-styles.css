@@ -11,7 +11,7 @@
     margin-bottom: 20px;
 }
 
-.intro_container{
+.intro__container{
     padding-top: 158px;
 }
 
@@ -43,32 +43,32 @@
     border-radius: 50%;
 }
 
-.circle_1{
+.circle1{
     width: 594px;
     height: 594px;
     border: 1px solid rgba(255, 0, 67, 0.1);
     margin: 0 0 0 60px;
 }
 
-.circle_2{
+.circle2{
     top: 50%;
     left: 50%;
-    width: 454px;
-    height: 454px;
+    width: 77%;
+    height: 77%;
     border: 1px solid rgba(255, 0, 67, 0.1);
     transform: translate(-50%, -50%);
 }
 
-.circle_3{
+.circle3{
     top: 50%;
     left: 50%;
-    width: 312px;
-    height: 312px;
+    width: 53%;
+    height: 53%;
     border: 1px solid rgba(255, 0, 67, 0.1);
     transform: translate(-50%, -50%);
 }
 
-.intro_icons{
+.intro__icons{
     position: absolute;
     transform: translate(-50%, -50%);
 }
@@ -124,5 +124,38 @@
     top: -5%;
     left: 80%;
     transform: translate(-50%, -50%);
+}
+
+
+@media screen and (max-width: 1250px) {
+    body{
+        overflow-x: hidden;
+    }
+    .circle1{
+        width: 500px;
+        height: 500px;
+    }
+
+    .phone2{
+        position: relative;
+        z-index: 1;
+        top: 55%;
+        left: 30%;
+        width: 240px;
+    }
+    .phone1{
+        width: 240px;
+    }
+    .intro__title{
+        max-width: 420px;
+        font-weight: 500;
+        font-size: 45px;
+
+        line-height: 60px;
+        color: #00194A;
+        margin-bottom: 20px;
+    }
+
+
 }
 

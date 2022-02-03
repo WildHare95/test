@@ -1,10 +1,11 @@
-.communication_wrapper{
+.communication__wrapper{
     display: flex;
+    max-width: 1127px;
     margin: 0 0 100px 0;
 }
 
-.communication_title{
-    width: 466px;
+.communication__title{
+    max-width: 466px;
     height: 100px;
 
     font-family: Roboto;
@@ -17,7 +18,7 @@
     color: #00194A;
 }
 
-.communication_subtitle{
+.communication__subtitle{
     width: 466px;
     height: 168px;
 
@@ -32,23 +33,23 @@
     opacity: 0.8;
 }
 
-.communication_card{
+.communication__card{
     width: 260px;
     height: 249px;
 }
 
-.communication_card:nth-child(2n){
+.communication__card:nth-child(2n){
 padding-top: 140px;
 }
 
-.communication_cards{
+.communication__cards{
     display: grid;
     grid-template-columns: 260px 260px;
     grid-gap: 30px;
     margin: 0 0 0 111px;
 }
 
-.communication_card_title{
+.communication__block{
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
@@ -59,7 +60,7 @@ padding-top: 140px;
     color: #00194A;
 }
 
-.communication_card_subtitle{
+.communication__card__subtitle{
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
@@ -73,6 +74,6 @@ padding-top: 140px;
     opacity: 0.8;
 }
 
-.communication_card_icon{
+.communication__icon{
     margin: 36px 0 0 20px;
 }

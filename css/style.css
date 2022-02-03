@@ -72,12 +72,12 @@ button {
     align-items: flex-end;
 }
 
-.footer_list {
+.footer__list {
     display: flex;
 
 }
 
-.footer_link {
+.footer__link {
     text-decoration: none;
     font-family: Roboto;
     font-style: normal;
@@ -89,15 +89,15 @@ button {
     color: #00194A;
 }
 
-.footer_item {
+.footer__item {
     margin-right: 40px;
 }
 
-.footer_item:last-child {
+.footer__item:last-child {
     margin-right: 0;
 }
 
-.footer_logo {
+.footer__logo {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -105,4 +105,18 @@ button {
     line-height: 21px;
 
     color: #00194A;
+}
+@media screen and (max-width: 1280px) {
+    .wrapper {
+        max-width: 100%;
+        margin: 0 auto;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }

@@ -1,4 +1,4 @@
-.dummy__card_wrapper{
+.dummy__wrapper{
     display: flex;
     justify-content: space-between;
     margin-bottom: 80px;
@@ -25,12 +25,12 @@
     color: #00194A;
 }
 
-.icon_dummy_card{
+.icon__card{
     margin: 36px 0 26px 30px;
 }
 
 .card__subtitle{
-    width: 300px;
+    max-width: 300px;
     margin: 15px 30px 20px 30px;
 
     font-family: Roboto;
@@ -41,7 +41,7 @@
 }
 
 .download__refs{
-    width: 300px;
+    max-width: 300px;
     height: 20px;
     margin: 0 30px 20px 30px;
     opacity: 0.5;

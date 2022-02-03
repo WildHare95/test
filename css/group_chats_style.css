@@ -1,4 +1,4 @@
-.group_chats_wrapper{
+.group-chats__wrapper{
     display: flex;
     justify-content: space-between;
     width: 1058px;
@@ -6,7 +6,7 @@
     margin: 0 0 100px -15px;
 }
 
-.group_chats_title{
+.group-chats__title{
     width: 466px;
     height: 100px;
 
@@ -20,7 +20,7 @@
     color: #00194A;
 }
 
-.group_chats_subtitle{
+.group-chats__subtitle{
     width: 466px;
     height: 112px;
 
@@ -37,17 +37,17 @@
     opacity: 0.8;
 }
 
-.group_chats_content{
+.group-chats__content{
     position: relative;
 }
 
-.group_chats_cycle{
+.group-chats__cycle{
     position: absolute;
     border-radius: 50%;
     z-index: 2;
 }
 
-.group_chats_cycle1{
+.group-chats__cycle1{
     width: 400px;
     height: 400px;
     top: 299px;
@@ -77,7 +77,7 @@
     background: #FFF8F9;
 }
 
-.group_chat_intro_pic{
+.group-chat__intro{
     position: absolute;
     z-index: 1;
     margin: 75px 0 0 0;
@@ -87,7 +87,7 @@
     margin: 0 0 0 211px;
 }
 
-.group_chat_icons{
+.group-chat__icons{
     position: absolute;
     z-index: 3;
     transform: translate(-50%, -50%);
