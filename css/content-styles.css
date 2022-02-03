@@ -68,31 +68,32 @@
     transform: translate(-50%, -50%);
 }
 
+.intro_icons{
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
 .icon1{
     position: absolute;
     top: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .icon2{
     position: absolute;
     top: 3%;
     left: 33.83%;
-    transform: translate(-50%, -50%);
 }
 
 .icon3{
     position: absolute;
     top: 84.53%;
     left: 14.16%;
-    transform: translate(-50%, -50%);
 }
 
 .icon4{
     position: absolute;
     top: 15.79%;
     left: 78.58%;
-    transform: translate(-50%, -50%);
 }
 
 
@@ -100,14 +101,12 @@
     position: absolute;
     top: 24%;
     left: 56%;
-    transform: translate(-50%, -50%);
 }
 
 .icon6{
     position: absolute;
     top: 98%;
     left: 64%;
-    transform: translate(-50%, -50%);
 }
 
 .phone1{
