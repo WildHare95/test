@@ -170,3 +170,21 @@
     }
 }
 
+
+@media screen and (max-width: 600px) {
+    .intro__container{
+        padding-top: 90px;
+        text-align: center;
+    }
+    .intro{
+        display: flex;
+        margin: 0 0 0px 0;
+    }
+    .intro__title{
+        max-width: 100%;
+    }
+    .info__block{
+        display: none;
+    }
+}
+

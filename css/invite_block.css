@@ -76,3 +76,12 @@
     }
 
 }
+
+@media screen and (max-width: 600px) {
+    .invite__wrapper {
+        width: 550px;
+    }
+    .invite__subtitle{
+        width: 450px;
+    }
+}

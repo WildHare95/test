@@ -1,7 +1,7 @@
 .communication__wrapper{
     display: flex;
     max-width: 1127px;
-    margin: 0 0 100px 0;
+    margin: 247px 0 100px 0;
 }
 
 .communication__title{
@@ -81,7 +81,7 @@
 
 @media screen and (max-width: 1280px){
     .communication__wrapper{
-        margin: 0 0 50px 0;
+        margin-bottom:50px ;
     }
 }
 @media screen and (max-width: 1024px){
@@ -146,4 +146,13 @@
 
 .communication__third-card{
     margin: 140px 0 0 0;
+}
+
+@media screen and (max-width: 800px){
+    .communication__wrapper{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 600px){
+
 }
