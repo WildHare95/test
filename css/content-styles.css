@@ -156,3 +156,17 @@
 
 }
 
+
+
+@media screen and (max-width: 1280px) {
+    .intro{
+        margin: 0 0 120px 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .intro__container{
+        padding-top: 90px;
+    }
+}
+

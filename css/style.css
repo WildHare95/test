@@ -114,6 +114,13 @@ button {
         padding-right: 70px;
     }
 }
+@media screen and (max-width: 800px) {
+    .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .wrapper {
         padding-left: 10px;

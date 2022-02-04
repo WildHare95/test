@@ -128,3 +128,43 @@
     left: 57%;
 }
 
+@media screen and (max-width: 1024px) {
+    .dots_chat {
+        margin: 0 0 0 180px;
+    }
+    .group-chats__wrapper{
+        width: 1000px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .group-chats__wrapper{
+        max-width: 100%;
+    }
+    .dots_chat {
+        margin: 0 0 0 180px;
+    }
+    .group-chats__cycle1{
+        width: 300px;
+        height: 300px;
+        top: 250px;
+        left: 120px;
+    }
+    .group-chat__intro{
+        width: 300px;
+    }
+    .group-chats__title{
+        width: 320px;
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .group-chats__subtitle{
+        width: 320px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .dots_chat {
+        margin: 0 0 0 110px;
+    }
+}
