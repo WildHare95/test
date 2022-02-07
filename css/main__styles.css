@@ -5,12 +5,15 @@ html {
 }
 
 body {
-    font-family: 'Roboto';
+    font-family: Roboto;
     font-style: normal;
-    font-size: 16px;
-    line-height: 1.2;
-    font-weight: normal;
-    color: black;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+
+    color: #00194A;
+
+    mix-blend-mode: normal;
 }
 
 button {
@@ -51,14 +54,13 @@ button {
 
 .footer__link {
     text-decoration: none;
-    font-family: Roboto;
-    font-style: normal;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-
-    text-align: right;
     color: #00194A;
+    text-align: right;
+
 }
 
 .footer__item {
@@ -70,26 +72,18 @@ button {
 }
 
 .footer__logo {
-    font-family: Roboto;
-    font-style: normal;
+
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
-
-    color: #00194A;
 }
+
 @media screen and (max-width: 1280px) {
     .wrapper {
         max-width: 100%;
         margin: 0 auto;
         padding-left: 70px;
         padding-right: 70px;
-    }
-}
-@media screen and (max-width: 800px) {
-    .wrapper {
-        padding-left: 10px;
-        padding-right: 10px;
     }
 }
 
@@ -105,10 +99,9 @@ button {
         padding-left: 10px;
         padding-right: 10px;
     }
-}
-
-@media screen and (max-width: 800px) {
     .footer{
-        justify-content: end;
+        justify-content: center;
     }
 }
+
+

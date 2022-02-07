@@ -5,7 +5,7 @@
     min-width: 300px;
 }
 
-.nav__btn{
+.header__button{
     border-radius: 23px;
     box-shadow: 0 5px 50px rgba(255, 0, 67, 0.1);
 
@@ -20,7 +20,7 @@
     line-height: 16px;
     color: white;
 }
-.logo{
+.header__logo{
     align-self: center;
     font-family: Roboto, monospace;
     font-style: normal;

@@ -4,28 +4,25 @@
     <meta charset="UTF-8">
     <title>Desktop</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main__styles.css">
     <link rel="stylesheet" href="css/content-styles.css">
-    <link rel="stylesheet" href="css/nav_styles.css">
-    <link rel="stylesheet" href="css/card_style.css">
-    <link rel="stylesheet" href="css/chats_style.css">
-    <link rel="stylesheet" href="css/communication_style.css">
-    <link rel="stylesheet" href="css/group_chats_style.css">
-    <link rel="stylesheet" href="css/invite_block.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="css/navigation_styles.css">
+    <link rel="stylesheet" href="css/dummy_cards_styles.css">
+    <link rel="stylesheet" href="css/chats_styles.css">
+    <link rel="stylesheet" href="css/communication_styles.css">
+    <link rel="stylesheet" href="css/group_chats_styles.css">
+    <link rel="stylesheet" href="css/invite_block_styles.css">
 </head>
+
 <body>
+
 <header class="header">
     <div class="wrapper">
         <div class="header__wrapper">
-            <div class="logo">
+            <div class="header__logo">
                 Telegraph
             </div>
-            <button class="nav__btn">Try beta</button>
+            <button class="header__button">Try beta</button>
         </div>
     </div>
 </header>
@@ -33,7 +30,7 @@
 <main class="main">
     <div class="wrapper">
         <div class="intro">
-            <div class="intro__container">
+            <div class="intro__wrapper">
                 <div>
                     <h1 class="intro__title">
                         Simple. Secure. Reliable messaging.
@@ -43,11 +40,11 @@
                         when
                         looking at its layout. The point of using Lorem Ipsum.
                     </p>
-                    <button class="intro__btn"></button>
+                    <button class="intro__button"></button>
                 </div>
             </div>
-            <div class="info__block">
-                <div class="circle circle1">
+            <div class="intro_info">
+                <div class="intro__circle circle1">
                     <img class="intro__icons icon1" src="img/svg/IntroIcons/icon1.svg" alt="icon">
                     <img class="intro__icons icon2" src="img/svg/IntroIcons/icon2.svg" alt="icon">
                     <img class="intro__icons icon3" src="img/svg/IntroIcons/icon3.svg" alt="icon">
@@ -56,45 +53,46 @@
                     <img class="intro__icons icon6" src="img/svg/IntroIcons/icon7.svg" alt="icon">
                     <img class="phone1" src="img/phone1.png" alt="">
                     <img class="phone2" src="img/phone2.png" alt="">
-                    <div class="circle circle2"></div>
-                    <div class="circle circle3"></div>
+                    <div class="intro__circle circle2"></div>
+                    <div class="intro__circle circle3"></div>
                 </div>
             </div>
         </div>
+
         <div class="dummy__cards">
             <div class="dummy__wrapper">
                 <div class="dummy__card">
-                    <img class="icon__card" src="img/svg/DummyCardsIcons/android.svg" alt="Android">
-                    <h4 class="card__title">Android</h4>
-                    <p class="card__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
-                    <a href="#" class="download__refs">
+                    <img class="dummy__icon" src="img/svg/DummyCardsIcons/android.svg" alt="Android">
+                    <h4 class="dummy__title">Android</h4>
+                    <p class="dummy__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+                    <a href="#" class="dummy_ref">
                         Try Beta For Free
                         <img src="img/svg/DummyCardsIcons/download.svg" alt="Cloud">
                     </a>
                 </div>
                 <div class="dummy__card">
-                    <img class="icon__card" src="img/svg/DummyCardsIcons/IPhone.svg" alt="IPhone">
-                    <h4 class="card__title">IPhone</h4>
-                    <p class="card__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
-                    <a href="#" class="download__refs">
+                    <img class="dummy__icon" src="img/svg/DummyCardsIcons/IPhone.svg" alt="IPhone">
+                    <h4 class="dummy__title">IPhone</h4>
+                    <p class="dummy__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+                    <a href="#" class="dummy_ref">
                         Try Beta For Free
                         <img src="img/svg/DummyCardsIcons/download.svg" alt="Cloud">
                     </a></div>
                 <div class="dummy__card">
-                    <img class="icon__card" src="img/svg/DummyCardsIcons/Group%202.svg" alt="GroupIcon">
-                    <h4 class="card__title">Android</h4>
-                    <p class="card__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
-                    <a href="#" class="download__refs">
+                    <img class="dummy__icon" src="img/svg/DummyCardsIcons/Group%202.svg" alt="GroupIcon">
+                    <h4 class="dummy__title">Android</h4>
+                    <p class="dummy__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+                    <a href="#" class="dummy_ref">
                         Try Beta For Free
                         <img src="img/svg/DummyCardsIcons/download.svg" alt="Cloud">
                     </a>
                 </div>
             </div>
         </div>
-        <div class="chats">
-            <div class="chats__wrapper">
+        <div class="chat">
+            <div class="chat__wrapper">
                 <div class="chat__content">
-                    <div class="chat">
+                    <div class="chat_item">
                         <img class="chat__icon" src="img/svg/ChatIcons/chat_icon_wife.svg" alt="icon">
                         <div>
                             <h6 class="chat__title">Wife</h6>
@@ -105,7 +103,7 @@
                             <div class="chat__alert">10</div>
                         </div>
                     </div>
-                    <div class="chat">
+                    <div class="chat_item">
                         <img class="chat__icon" src="img/svg/ChatIcons/chat_icon_girlfriend.svg" alt="icon">
                         <div>
                             <h6 class="chat__title">Girlfriend</h6>
@@ -115,7 +113,7 @@
                             <div class="chat__time">11:39 PM</div>
                         </div>
                     </div>
-                    <div class="chat">
+                    <div class="chat_item">
                         <img class="chat__icon" src="img/svg/ChatIcons/chat_icon_unknown_girl.svg" alt="icon">
                         <div>
                             <h6 class="chat__title">Unknown Girl</h6>
@@ -128,7 +126,9 @@
                     <div class="chat__intro">
                         <img class="chat__pic" src="img/svg/ChatIcons/chat_intro_pic.svg" alt="Picture">
                     </div>
-                    <div id="dots" class="dots"></div>
+                    <div class="dots">
+                        <img src="img/dots.svg" alt="background dots" width="249" height="249">
+                    </div>
                 </div>
                 <div class="chat__information">
                     <h2 class="chats__title">
@@ -161,34 +161,34 @@
                 </div>
                 <div class="communication__cards">
                     <div>
-                        <div class="communication__card">
+                        <div class="communication__item">
                             <img class="communication__icon" src="img/svg/CommunicationBlockPics/shield_icon.svg"
                                  alt="icon">
                             <h2 class="communication__block">
                                 Security by Default
                             </h2>
-                            <p class="communication__card__subtitle">
+                            <p class="communication__headline">
                                 It is a long established fact that a reader will be distracted by the readable content.
                             </p>
                         </div>
-                        <div class="communication__card">
+                        <div class="communication__item">
                             <img class="communication__icon" src="img/svg/CommunicationBlockPics/chat_icon.svg"
                                  alt="icon">
                             <h2 class="communication__block">
                                 Say What's On Your Mind
                             </h2>
-                            <p class="communication__card__subtitle">
+                            <p class="communication__headline">
                                 It is a long established fact that a reader will be distracted by the readable content.
                             </p>
                         </div>
                     </div>
-                    <div class="communication__card communication__third-card">
+                    <div class="communication__item communication__third-card">
                         <img class="communication__icon" src="img/svg/CommunicationBlockPics/pdf_icon.svg"
                              alt="icon">
                         <h2 class="communication__block">
                             Document Share
                         </h2>
-                        <p class="communication__card__subtitle">
+                        <p class="communication__headline">
                             It is a long established fact that a reader will be distracted by the readable content.
                         </p>
                     </div>
@@ -201,26 +201,28 @@
                     <div class="group-chats__cycle group-chats__cycle1">
                         <img class="group-chat__icons group_chat_icon" src="img/svg/GroupChatPics/chat_icon.svg"
                              alt="chat_icon">
-                        <img class="group-chat__icons group_chat_icon1" src="img/svg/GroupChatPics/group_chat_icon1.svg"
+                        <img class="group-chat__icons group-chat__icon1" src="img/svg/GroupChatPics/group_chat_icon1.svg"
                              alt="icon">
-                        <img class="group-chat__icons group_chat_icon2" src="img/svg/GroupChatPics/group_chat_icon2.svg"
+                        <img class="group-chat__icons group-chat__icon2" src="img/svg/GroupChatPics/group_chat_icon2.svg"
                              alt="icon">
-                        <img class="group-chat__icons group_chat_icon3" src="img/svg/GroupChatPics/group_chat_icon3.svg"
+                        <img class="group-chat__icons group-chat__icon3" src="img/svg/GroupChatPics/group_chat_icon3.svg"
                              alt="icon">
-                        <img class="group-chat__icons group_chat_icon4" src="img/svg/GroupChatPics/group_chat_icon4.svg"
+                        <img class="group-chat__icons group-chat__icon4" src="img/svg/GroupChatPics/group_chat_icon4.svg"
                              alt="icon">
-                        <img class="group-chat__icons group_chat_icon5" src="img/svg/GroupChatPics/group_chat_icon5.svg"
+                        <img class="group-chat__icons group-chat__icon5" src="img/svg/GroupChatPics/group_chat_icon5.svg"
                              alt="icon">
-                        <img class="group-chat__icons group_chat_icon6" src="img/svg/GroupChatPics/group_chat_icon6.svg"
+                        <img class="group-chat__icons group-chat__icon6" src="img/svg/GroupChatPics/group_chat_icon6.svg"
                              alt="icon">
-                        <div class="group-chats__cycle group_chats_cycle2 "></div>
-                        <div class="group-chats__cycle group_chats_cycle3"></div>
+                        <div class="group-chats__cycle group-chats__cycle2 "></div>
+                        <div class="group-chats__cycle group-chats__cycle3"></div>
                     </div>
                     <div>
                         <img class="group-chat__intro" src="img/svg/GroupChatPics/group_chat_intro_pic.svg"
                              alt="Picture">
                     </div>
-                    <div id="dots_group_chat" class="dots dots_chat"></div>
+                    <div class="dots__chat">
+                        <img src="img/dots.svg" alt="background dots" width="249" height="249">
+                    </div>
                 </div>
                 <div>
                     <h2 class="group-chats__title">
@@ -243,7 +245,7 @@
                     It is a long established fact that a reader will be distracted by the readable content of a page
                     when looking at its layout.
                 </p>
-                <button class="invite__btn">
+                <button class="invite__button">
                 </button>
             </div>
         </div>
@@ -271,8 +273,6 @@
         </div>
     </div>
 </footer>
-
-<script src="addDots.js"></script>
 
 </body>
 </html>

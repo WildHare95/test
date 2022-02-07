@@ -3,15 +3,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 1139px;
-    height: 346px;
+
+    min-width: 60%;
+    min-height: 346px;
     background: #00194A;
     border-radius: 25px;
 }
 
 .invite__title {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 35px;
     line-height: 50px;
@@ -22,14 +21,9 @@
 }
 
 .invite__subtitle{
-    width: 580px;
-    height: 56px;
+    width: 51%;
+    height: 5%;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 28px;
     margin: 30px 0 0 0;
 
     text-align: center;
@@ -37,7 +31,7 @@
     color: #FFFFFF;
 }
 
-.invite__btn{
+.invite__button{
     width: 275px;
     height: 60px;
 
@@ -47,8 +41,7 @@
     cursor: pointer;
 
     margin: 50px 0 0 0;
-    font-family: Roboto;
-    font-style: normal;
+
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
@@ -57,31 +50,16 @@
 }
 
 @media screen and (max-width: 1280px) {
-    .invite__wrapper {
-        width: 1100px;
-    }
 
 }
 @media screen and (max-width: 1024px) {
-    .invite__wrapper {
-        width: 1000px;
-    }
-
 
 }
 
 @media screen and (max-width: 800px) {
-    .invite__wrapper {
-        width: 770px;
-    }
 
 }
 
 @media screen and (max-width: 600px) {
-    .invite__wrapper {
-        width: 550px;
-    }
-    .invite__subtitle{
-        width: 450px;
-    }
+
 }
