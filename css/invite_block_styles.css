@@ -8,6 +8,7 @@
     min-height: 346px;
     background: #00194A;
     border-radius: 25px;
+    margin: 0 150px 80px 150px;
 }
 
 .invite__title {
@@ -46,20 +47,25 @@
     font-size: 14px;
     line-height: 16px;
     color: white;
-
 }
 
 @media screen and (max-width: 1280px) {
+    .invite__wrapper {
+        margin: 0 100px 80px 100px;
+    }
 
 }
-@media screen and (max-width: 1024px) {
+
+@media screen and (max-width: 1040px) {
+    .invite__wrapper {
+        margin: 0 50px 80px 50px;
+    }
 
 }
 
 @media screen and (max-width: 800px) {
-
-}
-
-@media screen and (max-width: 600px) {
+    .invite__wrapper {
+        margin: 0 20px 80px 20px;
+    }
 
 }
