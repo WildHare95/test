@@ -139,6 +139,9 @@
 }
 
 @media screen and (max-width: 1050px) {
+    .chats__title{
+        margin: 0;
+    }
     .chat__wrapper {
         display: flex;
         flex-direction: column;
