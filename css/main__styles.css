@@ -35,8 +35,6 @@ button {
 .wrapper {
     max-width: 1440px;
     margin: 0 auto;
-    padding-left: 150px;
-    padding-right: 150px;
 }
 
 .footer {
@@ -78,27 +76,16 @@ button {
     line-height: 21px;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1150px) {
     .wrapper {
-        max-width: 100%;
-        margin: 0 auto;
-        padding-left: 70px;
-        padding-right: 70px;
+        width: 100vw;
     }
 }
 
-@media screen and (max-width: 1024px) {
-    .wrapper {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-}
+
 
 @media screen and (max-width: 800px) {
-    .wrapper {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
+
     .footer{
         justify-content: center;
     }

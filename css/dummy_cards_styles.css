@@ -1,16 +1,16 @@
 .dummy__wrapper{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 80px;
+    margin: 0 150px 50px 150px;
 }
 
 .dummy__card{
-    width: 360px;
+    width: 31%;
     height: 272px;
-
     background: #FFFFFF;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.03);
     border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 .dummy__title{
@@ -52,15 +52,16 @@
     color: #00194A;
 }
 
-@media screen and (max-width: 600px) {
-    .dummy__subtitle{
-        margin: 15px 30px 20px 30px;
 
-        text-align: center;
-        font-size: 12px;
-        line-height: 20px;
+
+
+@media screen and (max-width: 1040px) {
+    .dummy__wrapper{
+        flex-direction: column;
+        align-items: center;
     }
-    .dummy_ref{
-        text-align: center;
+    .dummy__card{
+        width: 360px;
     }
+
 }
