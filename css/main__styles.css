@@ -76,16 +76,8 @@ button {
     line-height: 21px;
 }
 
-@media screen and (max-width: 1150px) {
-    .wrapper {
-        width: 100vw;
-    }
-}
-
-
 
 @media screen and (max-width: 800px) {
-
     .footer{
         justify-content: center;
     }
