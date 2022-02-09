@@ -25,14 +25,22 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin: 0 0 0 111px;
+    row-gap: 30px;
+    column-gap: 30px;
+    height: 528px;
+    margin: 0 0 0 111px; /*change neighbor block to N% */
 }
 
 .communication__item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 20px;
+
     width: 260px;
     height: 249px;
 
-    margin: 0 0 30px 0;
+
     background: #FFFFFF;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.10);
     border-radius: 10px;
@@ -42,15 +50,9 @@
 .communication__item:nth-child(2) {
     position: relative;
     top: 25%;
-    margin: 0 0 0 30px;
-}
-.communication__item:nth-child(3) {
-    margin: 0 0 0 0;
 }
 
 .communication__block{
-    margin: 26px 0 0 20px;
-
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
@@ -59,14 +61,15 @@
 .communication__headline{
     font-size: 14px;
     line-height: 23px;
-    margin: 15px 0 0 20px;
 
     opacity: 0.8;
 }
 
+
 .communication__icon{
-    margin: 36px 0 0 20px;
+    width: 60px;
 }
+
 
 
 @media screen and (max-width: 1300px){
