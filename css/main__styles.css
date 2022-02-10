@@ -70,7 +70,6 @@ button {
 }
 
 .footer__logo {
-
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
@@ -81,15 +80,9 @@ button {
     .footer{
         flex-wrap: wrap;
         justify-content: center;
+        margin: 0 120px 80px 120px;
     }
 }
 
-
-@media screen and (max-width: 650px) {
-    .footer{
-        margin: 0 50px 80px 50px;
-        justify-content: center;
-    }
-}
 
 
