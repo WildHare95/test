@@ -1,4 +1,4 @@
-.header__wrapper{
+.header__wrapper {
     display: flex;
     justify-content: space-between;
     margin: 0 0 0 150px;
@@ -6,7 +6,7 @@
     min-width: 300px;
 }
 
-.header__button{
+.header__button {
     margin: 0 150px 0 0;
 
     border-radius: 23px;
@@ -21,7 +21,8 @@
     line-height: 16px;
     color: white;
 }
-.header__logo{
+
+.header__logo {
     align-self: center;
     font-family: Roboto, monospace;
     font-style: normal;
@@ -32,14 +33,14 @@
 }
 
 @media screen and (max-width: 800px) {
-    .header__wrapper{
-    margin: 0 0 0 20px;
+    .header__wrapper {
+        margin: 0 0 0 20px;
     }
-    .header__button{
+
+    .header__button {
         margin: 0 20px 0 0;
     }
 
 }
-
 
 

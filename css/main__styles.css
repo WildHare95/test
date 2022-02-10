@@ -2,6 +2,8 @@
 
 html {
     box-sizing: border-box;
+    opacity: 0;
+    animation: ani 2s forwards;
 }
 
 body {
@@ -18,8 +20,6 @@ body {
 
 button {
     border: none;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
@@ -83,6 +83,13 @@ button {
         margin: 0 120px 80px 120px;
     }
 }
+
+
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
 
 
 
